@@ -1,0 +1,12 @@
+import math
+
+# Earth's radius in kilometers
+EARTH_RADIUS = 6371.0
+
+def calculate_earth_area():
+    # Calculate the area of the Earth using the formula for the surface area of a sphere
+    earth_area = 4 * math.pi * (EARTH_RADIUS ** 2)
+    return earth_area
+
+if __name__ == "__main__":
+    print("Area of the Earth:", calculate_earth_area())
